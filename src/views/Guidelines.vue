@@ -1,7 +1,7 @@
 <template>
-  <div class="guidelines">
-    <Preface class="my-2" id="preface"/>
-    <Message class="my-2" id="message"/>
+  <div class="px-5" >
+    <Preface class="my-5" id="preface"/>
+    <Message class="my-5" id="message"/>
     <Acknowledgment id="acknowledgement"/>
   </div>
 </template>
