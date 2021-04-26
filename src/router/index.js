@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Guidelines from '../views/Guidelines.vue'
 import Evaluation from '../views/Evaluation.vue'
+import Result from '../views/Result_view.vue'
+import Print from '../views/Print_view.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/Evaluation',
     name: 'Evaluation',
     component: Evaluation
+  },
+  {
+    path: '/Result',
+    name: 'Result',
+    component: Result
+  },
+  {
+    path: '/Print',
+    name: 'Print',
+    component: Print
   },
   // {
   //   path: '/about',

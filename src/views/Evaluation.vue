@@ -1,20 +1,22 @@
 <template>
   <div class="guidelines">
-    <v-card width="100%" class="mx-auto my-5" >
-      <h2 class="text-center">Evaluation Title</h2>
-      <q1form/>
-    </v-card>
+      <v-row class="d-flex justify-center mt-5">
+        <v-col cols="10">
+            <quiz1/>
+        </v-col>
+      </v-row>
   </div>
 </template>
 <script>
-import q1form from '../components/Evaluation/Q1'
+// import q1form from '../components/Evaluation/Q1'
+import quiz1 from '../components/Evaluation/Quiz1'
   export default {
     components:{
-      q1form
+      // q1form,
+      quiz1
     },
     data () {
       return {
-        e1: 1,
       }
     },
   }
