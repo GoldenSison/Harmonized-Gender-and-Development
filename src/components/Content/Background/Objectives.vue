@@ -1,7 +1,7 @@
 <template>
     <div >
         <h2 id="background">BACKGROUND</h2>
-        <hr>
+        <hr class="mb-3">
         <p style="text-align:justify; text-indent:50px;">In 1993 the National Economic and Development Authority (NEDA)
             and the
             National Commission on the Role of Filipino Women (PCW), now known as the Philippine Commission on Women
@@ -45,7 +45,7 @@
         <br>
 
         <h2 id="objectives">OBJECTIVES AND CONTENTS</h2>
-        <hr>
+        <hr class="mb-3"> 
 
         <p>The harmonized GAD guidelines seek to promote the twin goals of gender equality and women’s empowerment.
             Specifically, these aim to:

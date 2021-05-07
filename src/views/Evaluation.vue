@@ -2,17 +2,18 @@
   <div class="guidelines">
       <v-row class="d-flex justify-center mt-5">
         <v-col cols="10">
-            <quiz1/>
+            <!-- <quiz1/> -->
+            <fq/>  
         </v-col>
       </v-row>
   </div>
 </template>
 <script>
-// import q1form from '../components/Evaluation/Q1'
 import quiz1 from '../components/Evaluation/Quiz1'
+import fq from '../components/Evaluation/FinalQuiz'
   export default {
     components:{
-      // q1form,
+      fq,
       quiz1
     },
     data () {
