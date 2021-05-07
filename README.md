@@ -1,18 +1,28 @@
 # hgdg-app
+install the NodeJs setup from this link https://nodejs.org/en/download/
+then extract the copy of this code repository to your desired location.
+after that open the cmd terminal and navigate to the folder where you extracted the code repository.
+then do the next steps below
 
 ## Project setup
 ```
-npm install
+type 
+`npm install`
+in the console to install all node packages.
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+type
+'npm run serve'
+to run the code temporarily.
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+type
+`npm run build`
+to generate the deployment files.
 ```
 
 ### Customize configuration
